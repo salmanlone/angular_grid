@@ -48,9 +48,12 @@ export class AppComponent {
   ];
 
   rowData = [
-    {Product: 'Toyota', Supplement: 'Celica', Status: 35000, Type: 35000, Packaging: 35000, DateCreatedLastUpdated: 35000, Action: 35000},
-    {Product: 'Ford', Supplement: 'Mondeo', Status: 32000, Type: 35000, Packaging: 35000, DateCreatedLastUpdated: 35000, Action: 35000},
-    {Product: 'Porsche', Supplement: 'Boxter', Status: 72000, Type: 35000, Packaging: 35000, DateCreatedLastUpdated: 35000, Action: 35000}
+    {Product: 'Toyota', Supplement: 'Celica', Status: 'Live', Type: 'Powder', Packaging: '150ml bottle', DateCreatedLastUpdated: 35000, Action: 35000},
+    {Product: 'Ford', Supplement: 'Mondeo', Status: 'Draft', Type: 'Capsule', Packaging: '200ml bottle', DateCreatedLastUpdated: 35000, Action: 35000},
+    {Product: 'Porsche', Supplement: 'Boxter', Status: 'Archived', Type: 'Tablet', Packaging: '250ml bottle', DateCreatedLastUpdated: 35000, Action: 35000},
+    {Product: 'Toyota', Supplement: 'Celica', Status: 'Live', Type: 'Softgel', Packaging: '1kg white tub', DateCreatedLastUpdated: 35000, Action: 35000},
+    {Product: 'Ford', Supplement: 'Mondeo', Status: 'Live', Type: 'Capsule', Packaging: '1kg clear tub', DateCreatedLastUpdated: 35000, Action: 35000},
+    {Product: 'Porsche', Supplement: 'Boxter', Status: 'Live', Type: 'Powder', Packaging: '150ml bottle', DateCreatedLastUpdated: 35000, Action: 35000}
   ];
 
   onGridReady(params) {
