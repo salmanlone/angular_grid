@@ -11,12 +11,15 @@
 <div class="content" role="main">
     <div class="card highlight-card card-small">
         <ag-grid-angular 
+        #agGrid
         style="width: auto; height: 500px;" 
+        id="myGrid"
         class="ag-theme-balham"
         [pagination]="true"
         rowSelection="multiple"
         [rowData]="rowData"
-        [columnDefs]="columnDefs">
+        [columnDefs]="columnDefs"
+        [floatingFilter]="true">
         </ag-grid-angular>
     </div>
 </div>
