@@ -2,10 +2,10 @@ import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './grid.component.html',
+  styleUrls: ['./grid.component.css']
 })
-export class AppComponent {
+export class GridComponent {
   private gridApi;
   private gridColumnApi;
 

@@ -2,14 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { GridComponent } from './components/grid.component';
 
 
 import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   declarations: [
-    AppComponent
+    GridComponent
   ],
   imports: [
     BrowserModule,
@@ -17,6 +17,6 @@ import { AgGridModule } from 'ag-grid-angular';
     AgGridModule.withComponents(null)
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [GridComponent]
 })
 export class AppModule { }
